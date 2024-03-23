@@ -22,7 +22,6 @@ public class Main {
             System.out.println(e.getMessage());
         }
         System.out.println("=================================");
-
         try {
             orderId2 = marcket.createOrder(new User("Alex",Gender.Man, 22, "234422"));
             marcket.addProductToOrder(orderId1, marcket.getProducts().get(0),5);
